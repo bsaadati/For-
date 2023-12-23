@@ -6,7 +6,7 @@ for github
 pragma solidity >=0.8.0.1
 
 interface Token {
-    function balanceOf(address _a) external view returns (uint);
+    function  _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
 }
 
