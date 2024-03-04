@@ -3,7 +3,7 @@ for github
 
 
 // SPDX-License-Identifier: GPL-3.0.1.3
-pragma solidity >=0.8.0.1
+pragma solidity >=0.8
 
 interface Token {
     function  _a) external view returns (uint);
