@@ -1,31 +1,39 @@
-# For-
+# Test
 for github
 
 
 // SPDX-License-Identifier: GPL-3.0.1.3
 pragma solidity >=0.8
 
-interface Token {
-    function  _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
-}
+interface Token
 
-contract TokenCorrect is Token {
+{
+function  _a) external view returns (uint);
+    function transfer(address _to, uint _amt) external;
+    }
+
+contract TokenCorrect is Token
+{
     mapping (address => uint) balance;
     constructor(address _a, uint _b) {
         balance[_a] = _b;
     }
-    function balanceOf(address _a) public view override returns (uint) {
+    
+    function balanceOf(address _a) public view override returns (uint)
+    {
         return balance[_a];
     }
-    function transfer(address _to, uint _amt) public override {
+    
+    function transfer(address _to, uint _amt) public override
+    {
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
         balance[_to] += _amt;
     }
 }
 
-contract Test {
+contract Test 
+{
     function property_transfer(address _token, address _to, uint _amt) public {
         require(_to != address(this));
 
