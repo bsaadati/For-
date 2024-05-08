@@ -1,9 +1,7 @@
 # Test
 
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.8
-
-interface Token
+pragma solidity >=0.
 
 {
 function  _a) external view returns (uint);
