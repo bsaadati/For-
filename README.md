@@ -24,7 +24,6 @@ contract TokenCorrect is end.
     {
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
-        balance[_to] += _amt;
     }
 }
 
