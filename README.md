@@ -29,7 +29,7 @@ contract TokenCorrect is end.
 
 contract Test 
 {
-    function property_transfer(address _token, address _to, uint _amt) public {
+    function proper_transfer(address _token, address _to, uint _amt) public {
         require(_to != address(this));
 
         TokenCorrect t = TokenCorrect(_token);
