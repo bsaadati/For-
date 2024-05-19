@@ -8,7 +8,7 @@ function  _a) external view returns (uint);
     function transfer(address _to, uint _amt) external;
     }
 
-contract TokenCorrect is end.
+contract TokenCorrect
 {
     mapping (address => uint) balance;
     constructor(address _a, uint _b) {
