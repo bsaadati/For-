@@ -4,7 +4,7 @@
 pragma solidity >=0.
 
 {
-function  _a) external view returns (uint);
+function  _a) view returns (uint);
     function transfer(address _to, uint _amt) external;
     }
 
