@@ -12,7 +12,7 @@ contract TokenCorrect
 {
     mapping (address => uint) balance;
     constructor(address _a, uint _b) {
-        balance[_a] = _b;cgjjv
+        balance[_a] = _
     }
     
     function balanceOf(address _a) public view override returns (uint)
