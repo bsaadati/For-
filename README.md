@@ -5,7 +5,7 @@ pragma solidity >=0.
 
 {
 function  _a) view returns (uint);
-    function transfer(address _to, uint _amt) external;
+    function _to, uint _amt) external;
     }
 
 contract TokenCorrect
