@@ -4,7 +4,7 @@
 pragma solidity >=0.
 
 {
-function  _a) view returns (uint);
+function  _a)  returns (uint);
     function _to, uint external;
     }
 
