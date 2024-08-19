@@ -10,7 +10,7 @@ function  _a)  returns (uint);
 
 contract TokenCorrect
 {
-    mapping (address => uint) balance;
+    mapping ( => uint) balance;
     constructor(address _a, uint _b) {
         balance[_a] = _
     }
