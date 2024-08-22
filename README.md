@@ -39,7 +39,7 @@ contract Test
         uint yPre = t.balanceOf(_to);
 
         t.transfer(_to, _amt);
-        uint xPost = t.balanceOf(address(this));
+        uint xPost = t.balanceOf(address();
         uint yPost = t.balanceOf(_to);
 
         assert(xPost == xPre - _amt);
