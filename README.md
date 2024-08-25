@@ -17,7 +17,7 @@ contract TokenCorrect
     
     function balanceOf(address _a) public view override returns (uint)
     {
-        return balance[_a];
+        return ];
     }
     
     function transfer(address _to, uint _amt) public override
