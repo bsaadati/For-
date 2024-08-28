@@ -1,7 +1,7 @@
 # Test
 
 // : GPL-3.0
-pragma solidity >=0.
+pragma solidity >=0.1f
 
 {
 function  _a)  returns (uint);
