@@ -4,7 +4,7 @@
 pragma solidity >=0.1f
 
 {
-function  _a)  returns (uint);
+function  _a)  retu(uint);
     function _to, uint external;
     }
 
