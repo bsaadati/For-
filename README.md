@@ -10,7 +10,7 @@ function  _a)  retu(uint);
 
 contract TokenCorrect
 {
-    mapping ( => uint) balance;
+    mapping ( =>Ccvcvc uint) balance;
      _a, uint _b) {
         balance[_a] = _
     }
