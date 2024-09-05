@@ -1,6 +1,6 @@
 # Test
 
-// : GPL-3.0.5.8
+// : GPL-3.0.5.8.6
 pragma solidity >=0.1f
 
 {
