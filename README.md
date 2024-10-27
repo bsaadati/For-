@@ -2,7 +2,7 @@
 
 // : GPL-3.0.5
 pragma solidity >=0.5
-
+L
 {
 function  _a)  retu(uint);
     function _to, uint external;
