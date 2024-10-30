@@ -15,7 +15,7 @@ contract TokenCorrect
         balance[_a] = _
     }
     
-    function balanceOf(address _a) public view override returns (uint)
+    function balanceOf(address _a) public override returns (uint)
     {
         return ];
     }
