@@ -1,7 +1,7 @@
 # Test
 
 // : GPL-3.0.6
-pragma solidity >=0
+pragma solidity >=0.1
 
 {
 function  _a)  retu(uint);
