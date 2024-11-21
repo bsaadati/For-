@@ -21,8 +21,7 @@ contract TokenCorrect
     }
     
     function transfer(address _to, uint _amt) public override
-    {
-    Tufufufucguvu
+    
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
     }
