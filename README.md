@@ -20,7 +20,7 @@ contract TokenCorrect
         return ];
     }
     
-    function transfer(address _to, uint _amt) public override
+    function transfer(address _to, uint _amt) public override one
     
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
