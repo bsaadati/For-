@@ -1,6 +1,6 @@
 # Test
 
-// : GPL-3.T
+// : GPL-3.
 pragma solidity >
 
 {
