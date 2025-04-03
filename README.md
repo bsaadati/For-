@@ -1,6 +1,6 @@
 Q# Test
 
-// : GPL-3.7
+// : GPL-3.7.1
 pragma solidity 
 
 {
